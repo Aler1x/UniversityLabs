@@ -1,0 +1,22 @@
+<RCC>
+    <qresource prefix="/mazes">
+        <file>Maze/Circular10.png</file>
+        <file>Maze/Circular20.png</file>
+        <file>Maze/Circular30.png</file>
+        <file>Maze/Hexagonal10.png</file>
+        <file>Maze/Hexagonal20.png</file>
+        <file>Maze/Hexagonal30.png</file>
+        <file>Maze/RectangularDelta10.png</file>
+        <file>Maze/RectangularDelta20.png</file>
+        <file>Maze/RectangularDelta30.png</file>
+        <file>Maze/RectangularOrthogonal10.png</file>
+        <file>Maze/RectangularOrthogonal20.png</file>
+        <file>Maze/RectangularOrthogonal30.png</file>
+        <file>Maze/RectangularSigma10.png</file>
+        <file>Maze/RectangularSigma20.png</file>
+        <file>Maze/RectangularSigma30.png</file>
+        <file>Maze/Triangular10.png</file>
+        <file>Maze/Triangular20.png</file>
+        <file>Maze/Triangular30.png</file>
+    </qresource>
+</RCC>

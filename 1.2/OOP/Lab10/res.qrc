@@ -1,0 +1,11 @@
+<RCC>
+    <qresource prefix="/icon">
+        <file>baseline_data_array_black_48dp.png</file>
+        <file>interlining.png</file>
+        <file>sort.png</file>
+        <file>baseline_keyboard_arrow_down_black_48dp.png</file>
+        <file>baseline_keyboard_arrow_up_black_48dp.png</file>
+        <file>baseline_keyboard_arrow_left_black_48dp.png</file>
+        <file>baseline_keyboard_arrow_right_black_48dp.png</file>
+    </qresource>
+</RCC>

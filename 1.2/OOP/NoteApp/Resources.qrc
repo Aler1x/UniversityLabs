@@ -1,0 +1,21 @@
+<RCC>
+    <qresource prefix="/image">
+        <file>NoteIcons/copy.png</file>
+        <file>NoteIcons/cut.png</file>
+        <file>NoteIcons/new-file.png</file>
+        <file>NoteIcons/open.png</file>
+        <file>NoteIcons/paste.png</file>
+        <file>NoteIcons/printer.png</file>
+        <file>NoteIcons/save.png</file>
+        <file>NoteIcons/type.png</file>
+        <file>NoteIcons/icon.png</file>
+        <file>NoteIcons/exit.png</file>
+        <file>NoteIcons/bold.png</file>
+        <file>NoteIcons/italic.png</file>
+        <file>NoteIcons/redo.png</file>
+        <file>NoteIcons/underlined.png</file>
+        <file>NoteIcons/undo.png</file>
+        <file>NoteIcons/about.png</file>
+        <file>NoteIcons/save_as.png</file>
+    </qresource>
+</RCC>
