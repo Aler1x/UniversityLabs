@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>400</width>
+    <height>191</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>MainWindow</string>
+  </property>
+  <property name="windowIcon">
+   <iconset resource="resource.qrc">
+    <normaloff>:/icons/icons/Bank.png</normaloff>:/icons/icons/Bank.png</iconset>
+  </property>
+  <property name="iconSize">
+   <size>
+    <width>20</width>
+    <height>20</height>
+   </size>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <widget class="QWidget" name="layoutWidget">
+    <property name="geometry">
+     <rect>
+      <x>40</x>
+      <y>60</y>
+      <width>311</width>
+      <height>71</height>
+     </rect>
+    </property>
+    <layout class="QHBoxLayout" name="horizontalLayout">
+     <item>
+      <widget class="QPushButton" name="pushButton_std">
+       <property name="styleSheet">
+        <string notr="true">QPushButton{
+  background-color: #fff;
+  border: 1px solid #dbdbdb;
+  border-radius: .375em;
+  color: #363636;
+  font-family: &quot;Segoe UI&quot;;
+  font-size: 1rem;
+  height: 2.5em;
+  line-height: 1.5;
+  padding: calc(0.5em - 1px) 1em;
+  position: relative;
+  text-align: center;
+  vertical-align: top;
+  white-space: nowrap;
+}
+
+QPushButton::pressed {
+  border-color: #4a4a4a;
+  outline: 0;
+}
+</string>
+       </property>
+       <property name="text">
+        <string>Звичайний</string>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QPushButton" name="pushButton_soc">
+       <property name="styleSheet">
+        <string notr="true">QPushButton{
+  background-color: #fff;
+  border: 1px solid #dbdbdb;
+  border-radius: .375em;
+  color: #363636;
+  font-family: &quot;Segoe UI&quot;;
+  font-size: 1rem;
+  height: 2.5em;
+  line-height: 1.5;
+  padding: calc(0.5em - 1px) 1em;
+  position: relative;
+  text-align: center;
+  vertical-align: top;
+  white-space: nowrap;
+}
+
+QPushButton::pressed {
+  border-color: #4a4a4a;
+  outline: 0;
+}
+</string>
+       </property>
+       <property name="text">
+        <string>Соціальний</string>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QPushButton" name="pushButton_vip">
+       <property name="styleSheet">
+        <string notr="true">QPushButton{
+  background-color: #fff;
+  border: 1px solid #dbdbdb;
+  border-radius: .375em;
+  color: #363636;
+  font-family: &quot;Segoe UI&quot;;
+  font-size: 1rem;
+  height: 2.5em;
+  line-height: 1.5;
+  padding: calc(0.5em - 1px) 1em;
+  position: relative;
+  text-align: center;
+  vertical-align: top;
+  white-space: nowrap;
+}
+
+QPushButton::pressed {
+  border-color: #4a4a4a;
+  outline: 0;
+}
+</string>
+       </property>
+       <property name="text">
+        <string>VIP</string>
+       </property>
+      </widget>
+     </item>
+    </layout>
+   </widget>
+  </widget>
+ </widget>
+ <resources>
+  <include location="resource.qrc"/>
+ </resources>
+ <connections/>
+</ui>

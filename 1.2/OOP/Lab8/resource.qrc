@@ -1,0 +1,23 @@
+<RCC>
+    <qresource prefix="/icons">
+        <file>icons/Bank.png</file>
+        <file>icons/Cancel.png</file>
+        <file>icons/Card.png</file>
+        <file>icons/Document.png</file>
+        <file>icons/Exchange.png</file>
+        <file>icons/History.png</file>
+        <file>icons/Home.png</file>
+        <file>icons/Invoice.png</file>
+        <file>icons/Logout.png</file>
+        <file>icons/Menu.png</file>
+        <file>icons/Printer.png</file>
+        <file>icons/Save.png</file>
+        <file>icons/Stack.png</file>
+        <file>icons/user.png</file>
+        <file>icons/Wallet.png</file>
+        <file>icons/money.png</file>
+        <file>icons/user_soc.png</file>
+        <file>icons/user_vip.png</file>
+        <file>icons/vip-card.png</file>
+    </qresource>
+</RCC>

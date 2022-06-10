@@ -1,0 +1,615 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>675</width>
+    <height>142</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>MainWindow</string>
+  </property>
+  <property name="windowIcon">
+   <iconset resource="resource.qrc">
+    <normaloff>:/icons/res/baseline_functions_black_24dp.png</normaloff>:/icons/res/baseline_functions_black_24dp.png</iconset>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <widget class="QWidget" name="">
+    <property name="geometry">
+     <rect>
+      <x>0</x>
+      <y>0</y>
+      <width>671</width>
+      <height>122</height>
+     </rect>
+    </property>
+    <layout class="QGridLayout" name="gridLayout">
+     <item row="0" column="4">
+      <widget class="QLabel" name="lbl_Z1_2">
+       <property name="text">
+        <string>i</string>
+       </property>
+      </widget>
+     </item>
+     <item row="0" column="2">
+      <widget class="QLabel" name="lbl_Z1_3">
+       <property name="text">
+        <string>+</string>
+       </property>
+      </widget>
+     </item>
+     <item row="0" column="6">
+      <widget class="QPushButton" name="pushButton_plus">
+       <property name="styleSheet">
+        <string notr="true">QPushButton{
+  background-color: #fff;
+  border: 1px solid #dbdbdb;
+  border-radius: .375em;
+  color: #363636;
+  font-family: &quot;Segoe UI&quot;;
+  font-size: 1rem;
+  height: 2.5em;
+  line-height: 1.5;
+  padding: calc(0.5em - 1px) 1em;
+  position: relative;
+  text-align: center;
+  vertical-align: top;
+  white-space: nowrap;
+}
+
+QPushButton::pressed {
+  border-color: #4a4a4a;
+  outline: 0;
+}
+</string>
+       </property>
+       <property name="text">
+        <string>+</string>
+       </property>
+      </widget>
+     </item>
+     <item row="1" column="3">
+      <widget class="QLineEdit" name="lineEdit_Z2_i"/>
+     </item>
+     <item row="1" column="0">
+      <widget class="QLabel" name="lbl_Z2">
+       <property name="text">
+        <string>Z2</string>
+       </property>
+      </widget>
+     </item>
+     <item row="1" column="2">
+      <widget class="QLabel" name="lbl_Z1_4">
+       <property name="text">
+        <string>+</string>
+       </property>
+      </widget>
+     </item>
+     <item row="0" column="5">
+      <widget class="QPushButton" name="pushButton_m">
+       <property name="styleSheet">
+        <string notr="true">QPushButton{
+  background-color: #fff;
+  border: 1px solid #dbdbdb;
+  border-radius: .375em;
+  color: #363636;
+  font-family: &quot;Segoe UI&quot;;
+  font-size: 1rem;
+  height: 2.5em;
+  line-height: 1.5;
+  padding: calc(0.5em - 1px) 1em;
+  position: relative;
+  text-align: center;
+  vertical-align: top;
+  white-space: nowrap;
+}
+
+QPushButton::pressed {
+  border-color: #4a4a4a;
+  outline: 0;
+}
+</string>
+       </property>
+       <property name="text">
+        <string>&lt;</string>
+       </property>
+      </widget>
+     </item>
+     <item row="0" column="7">
+      <widget class="QPushButton" name="pushButton_plus_2">
+       <property name="styleSheet">
+        <string notr="true">QPushButton{
+  background-color: #fff;
+  border: 1px solid #dbdbdb;
+  border-radius: .375em;
+  color: #363636;
+  font-family: &quot;Segoe UI&quot;;
+  font-size: 1rem;
+  height: 2.5em;
+  line-height: 1.5;
+  padding: calc(0.5em - 1px) 1em;
+  position: relative;
+  text-align: center;
+  vertical-align: top;
+  white-space: nowrap;
+}
+
+QPushButton::pressed {
+  border-color: #4a4a4a;
+  outline: 0;
+}
+</string>
+       </property>
+       <property name="text">
+        <string>(+)</string>
+       </property>
+      </widget>
+     </item>
+     <item row="0" column="0">
+      <widget class="QLabel" name="lbl_Z1">
+       <property name="text">
+        <string>Z1</string>
+       </property>
+      </widget>
+     </item>
+     <item row="2" column="7">
+      <widget class="QPushButton" name="pushButton_mult_2">
+       <property name="styleSheet">
+        <string notr="true">QPushButton{
+  background-color: #fff;
+  border: 1px solid #dbdbdb;
+  border-radius: .375em;
+  color: #363636;
+  font-family: &quot;Segoe UI&quot;;
+  font-size: 1rem;
+  height: 2.5em;
+  line-height: 1.5;
+  padding: calc(0.5em - 1px) 1em;
+  position: relative;
+  text-align: center;
+  vertical-align: top;
+  white-space: nowrap;
+}
+
+QPushButton::pressed {
+  border-color: #4a4a4a;
+  outline: 0;
+}
+</string>
+       </property>
+       <property name="text">
+        <string>(*)</string>
+       </property>
+      </widget>
+     </item>
+     <item row="2" column="10">
+      <widget class="QPushButton" name="pushButton_amount">
+       <property name="styleSheet">
+        <string notr="true">QPushButton{
+  background-color: #fff;
+  border: 1px solid #dbdbdb;
+  border-radius: .375em;
+  color: #363636;
+  font-family: &quot;Segoe UI&quot;;
+  font-size: 1rem;
+  height: 2.5em;
+  line-height: 1.5;
+  padding: calc(0.5em - 1px) 1em;
+  position: relative;
+  text-align: center;
+  vertical-align: top;
+  white-space: nowrap;
+}
+
+QPushButton::pressed {
+  border-color: #4a4a4a;
+  outline: 0;
+}
+</string>
+       </property>
+       <property name="text">
+        <string>Amount?</string>
+       </property>
+      </widget>
+     </item>
+     <item row="1" column="5">
+      <widget class="QPushButton" name="pushButton_l">
+       <property name="styleSheet">
+        <string notr="true">QPushButton{
+  background-color: #fff;
+  border: 1px solid #dbdbdb;
+  border-radius: .375em;
+  color: #363636;
+  font-family: &quot;Segoe UI&quot;;
+  font-size: 1rem;
+  height: 2.5em;
+  line-height: 1.5;
+  padding: calc(0.5em - 1px) 1em;
+  position: relative;
+  text-align: center;
+  vertical-align: top;
+  white-space: nowrap;
+}
+
+QPushButton::pressed {
+  border-color: #4a4a4a;
+  outline: 0;
+}
+</string>
+       </property>
+       <property name="text">
+        <string>&gt;</string>
+       </property>
+      </widget>
+     </item>
+     <item row="2" column="0">
+      <widget class="QLabel" name="lbl_n">
+       <property name="text">
+        <string>n</string>
+       </property>
+      </widget>
+     </item>
+     <item row="0" column="10">
+      <widget class="QPushButton" name="pushButton_Z1_trm_Form">
+       <property name="styleSheet">
+        <string notr="true">QPushButton{
+  background-color: #fff;
+  border: 1px solid #dbdbdb;
+  border-radius: .375em;
+  color: #363636;
+  font-family: &quot;Segoe UI&quot;;
+  font-size: 1rem;
+  height: 2.5em;
+  line-height: 1.5;
+  padding: calc(0.5em - 1px) 1em;
+  position: relative;
+  text-align: center;
+  vertical-align: top;
+  white-space: nowrap;
+}
+
+QPushButton::pressed {
+  border-color: #4a4a4a;
+  outline: 0;
+}
+</string>
+       </property>
+       <property name="text">
+        <string>Z1 trigonometrical</string>
+       </property>
+      </widget>
+     </item>
+     <item row="0" column="3">
+      <widget class="QLineEdit" name="lineEdit_Z1_i"/>
+     </item>
+     <item row="2" column="5">
+      <widget class="QPushButton" name="pushButton_equal">
+       <property name="styleSheet">
+        <string notr="true">QPushButton{
+  background-color: #fff;
+  border: 1px solid #dbdbdb;
+  border-radius: .375em;
+  color: #363636;
+  font-family: &quot;Segoe UI&quot;;
+  font-size: 1rem;
+  height: 2.5em;
+  line-height: 1.5;
+  padding: calc(0.5em - 1px) 1em;
+  position: relative;
+  text-align: center;
+  vertical-align: top;
+  white-space: nowrap;
+}
+
+QPushButton::pressed {
+  border-color: #4a4a4a;
+  outline: 0;
+}
+</string>
+       </property>
+       <property name="text">
+        <string>==</string>
+       </property>
+      </widget>
+     </item>
+     <item row="2" column="6">
+      <widget class="QPushButton" name="pushButton_mult">
+       <property name="styleSheet">
+        <string notr="true">QPushButton{
+  background-color: #fff;
+  border: 1px solid #dbdbdb;
+  border-radius: .375em;
+  color: #363636;
+  font-family: &quot;Segoe UI&quot;;
+  font-size: 1rem;
+  height: 2.5em;
+  line-height: 1.5;
+  padding: calc(0.5em - 1px) 1em;
+  position: relative;
+  text-align: center;
+  vertical-align: top;
+  white-space: nowrap;
+}
+
+QPushButton::pressed {
+  border-color: #4a4a4a;
+  outline: 0;
+}
+</string>
+       </property>
+       <property name="text">
+        <string>*</string>
+       </property>
+      </widget>
+     </item>
+     <item row="1" column="9">
+      <widget class="QPushButton" name="pushButton_Z2_pow_n">
+       <property name="styleSheet">
+        <string notr="true">QPushButton{
+  background-color: #fff;
+  border: 1px solid #dbdbdb;
+  border-radius: .375em;
+  color: #363636;
+  font-family: &quot;Segoe UI&quot;;
+  font-size: 1rem;
+  height: 2.5em;
+  line-height: 1.5;
+  padding: calc(0.5em - 1px) 1em;
+  position: relative;
+  text-align: center;
+  vertical-align: top;
+  white-space: nowrap;
+}
+
+QPushButton::pressed {
+  border-color: #4a4a4a;
+  outline: 0;
+}
+</string>
+       </property>
+       <property name="text">
+        <string>Z2^n</string>
+       </property>
+      </widget>
+     </item>
+     <item row="1" column="4">
+      <widget class="QLabel" name="lbl_Z2_2">
+       <property name="text">
+        <string>i</string>
+       </property>
+      </widget>
+     </item>
+     <item row="1" column="6">
+      <widget class="QPushButton" name="pushButton_minus">
+       <property name="styleSheet">
+        <string notr="true">QPushButton{
+  background-color: #fff;
+  border: 1px solid #dbdbdb;
+  border-radius: .375em;
+  color: #363636;
+  font-family: &quot;Segoe UI&quot;;
+  font-size: 1rem;
+  height: 2.5em;
+  line-height: 1.5;
+  padding: calc(0.5em - 1px) 1em;
+  position: relative;
+  text-align: center;
+  vertical-align: top;
+  white-space: nowrap;
+}
+
+QPushButton::pressed {
+  border-color: #4a4a4a;
+  outline: 0;
+}
+</string>
+       </property>
+       <property name="text">
+        <string>-</string>
+       </property>
+      </widget>
+     </item>
+     <item row="0" column="1">
+      <widget class="QLineEdit" name="lineEdit_Z1_r"/>
+     </item>
+     <item row="0" column="9">
+      <widget class="QPushButton" name="pushButton_Z1_pow_n">
+       <property name="styleSheet">
+        <string notr="true">QPushButton{
+  background-color: #fff;
+  border: 1px solid #dbdbdb;
+  border-radius: .375em;
+  color: #363636;
+  font-family: &quot;Segoe UI&quot;;
+  font-size: 1rem;
+  height: 2.5em;
+  line-height: 1.5;
+  padding: calc(0.5em - 1px) 1em;
+  position: relative;
+  text-align: center;
+  vertical-align: top;
+  white-space: nowrap;
+}
+
+QPushButton::pressed {
+  border-color: #4a4a4a;
+  outline: 0;
+}
+</string>
+       </property>
+       <property name="text">
+        <string>Z1^n</string>
+       </property>
+      </widget>
+     </item>
+     <item row="1" column="8">
+      <widget class="QPushButton" name="pushButton_mod_Z2">
+       <property name="styleSheet">
+        <string notr="true">QPushButton{
+  background-color: #fff;
+  border: 1px solid #dbdbdb;
+  border-radius: .375em;
+  color: #363636;
+  font-family: &quot;Segoe UI&quot;;
+  font-size: 1rem;
+  height: 2.5em;
+  line-height: 1.5;
+  padding: calc(0.5em - 1px) 1em;
+  position: relative;
+  text-align: center;
+  vertical-align: top;
+  white-space: nowrap;
+}
+
+QPushButton::pressed {
+  border-color: #4a4a4a;
+  outline: 0;
+}
+</string>
+       </property>
+       <property name="text">
+        <string>|Z2|</string>
+       </property>
+      </widget>
+     </item>
+     <item row="0" column="8">
+      <widget class="QPushButton" name="pushButton_mod_Z1">
+       <property name="styleSheet">
+        <string notr="true">QPushButton{
+  background-color: #fff;
+  border: 1px solid #dbdbdb;
+  border-radius: .375em;
+  color: #363636;
+  font-family: &quot;Segoe UI&quot;;
+  font-size: 1rem;
+  height: 2.5em;
+  line-height: 1.5;
+  padding: calc(0.5em - 1px) 1em;
+  position: relative;
+  text-align: center;
+  vertical-align: top;
+  white-space: nowrap;
+}
+
+QPushButton::pressed {
+  border-color: #4a4a4a;
+  outline: 0;
+}
+</string>
+       </property>
+       <property name="text">
+        <string>|Z1|</string>
+       </property>
+      </widget>
+     </item>
+     <item row="1" column="10">
+      <widget class="QPushButton" name="pushButton_Z2_trmForm">
+       <property name="styleSheet">
+        <string notr="true">QPushButton{
+  background-color: #fff;
+  border: 1px solid #dbdbdb;
+  border-radius: .375em;
+  color: #363636;
+  font-family: &quot;Segoe UI&quot;;
+  font-size: 1rem;
+  height: 2.5em;
+  line-height: 1.5;
+  padding: calc(0.5em - 1px) 1em;
+  position: relative;
+  text-align: center;
+  vertical-align: top;
+  white-space: nowrap;
+}
+
+QPushButton::pressed {
+  border-color: #4a4a4a;
+  outline: 0;
+}
+</string>
+       </property>
+       <property name="text">
+        <string>Z2 trigonometrical</string>
+       </property>
+      </widget>
+     </item>
+     <item row="1" column="1">
+      <widget class="QLineEdit" name="lineEdit_Z2_r"/>
+     </item>
+     <item row="1" column="7">
+      <widget class="QPushButton" name="pushButton_minus_2">
+       <property name="styleSheet">
+        <string notr="true">QPushButton{
+  background-color: #fff;
+  border: 1px solid #dbdbdb;
+  border-radius: .375em;
+  color: #363636;
+  font-family: &quot;Segoe UI&quot;;
+  font-size: 1rem;
+  height: 2.5em;
+  line-height: 1.5;
+  padding: calc(0.5em - 1px) 1em;
+  position: relative;
+  text-align: center;
+  vertical-align: top;
+  white-space: nowrap;
+}
+
+QPushButton::pressed {
+  border-color: #4a4a4a;
+  outline: 0;
+}
+</string>
+       </property>
+       <property name="text">
+        <string>(-)</string>
+       </property>
+      </widget>
+     </item>
+     <item row="3" column="2" colspan="9">
+      <widget class="QLabel" name="label_result">
+       <property name="styleSheet">
+        <string notr="true">background-color: rgb(255, 255, 255);</string>
+       </property>
+       <property name="text">
+        <string/>
+       </property>
+      </widget>
+     </item>
+     <item row="3" column="0" colspan="2">
+      <widget class="QLabel" name="label_name_result">
+       <property name="text">
+        <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p align=&quot;center&quot;&gt;Result&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+       </property>
+      </widget>
+     </item>
+     <item row="2" column="1" colspan="4">
+      <widget class="QLineEdit" name="lineEdit_n"/>
+     </item>
+    </layout>
+   </widget>
+  </widget>
+  <widget class="QMenuBar" name="menubar">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>675</width>
+     <height>17</height>
+    </rect>
+   </property>
+  </widget>
+  <action name="actioninfo">
+   <property name="text">
+    <string>info</string>
+   </property>
+  </action>
+ </widget>
+ <resources>
+  <include location="resource.qrc"/>
+ </resources>
+ <connections/>
+</ui>

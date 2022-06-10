@@ -1,0 +1,7 @@
+<RCC>
+    <qresource prefix="/icons">
+        <file>res/baseline_calculate_black_24dp.png</file>
+        <file>res/baseline_functions_black_24dp.png</file>
+        <file>res/square-root(1).png</file>
+    </qresource>
+</RCC>
