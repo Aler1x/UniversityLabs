@@ -1,0 +1,17 @@
+<RCC>
+    <qresource prefix="/icons">
+        <file>Icons/exit.png</file>
+        <file>Icons/ftwsize.png</file>
+        <file>Icons/icon.png</file>
+        <file>Icons/nsize.png</file>
+        <file>Icons/open.png</file>
+        <file>Icons/printer.png</file>
+        <file>Icons/error.png</file>
+        <file>Icons/information.png</file>
+        <file>Icons/next.png</file>
+        <file>Icons/picture.png</file>
+        <file>Icons/previous.png</file>
+        <file>Icons/zoom-in.png</file>
+        <file>Icons/zoom-out.png</file>
+    </qresource>
+</RCC>

@@ -1,0 +1,11 @@
+<RCC>
+    <qresource prefix="/icons">
+        <file>Icons/sudoku.png</file>
+        <file>Icons/sudokuExit.png</file>
+        <file>Icons/sudokuNew.png</file>
+        <file>Icons/sudokuCheck.png</file>
+        <file>Icons/question.png</file>
+        <file>Icons/check.png</file>
+        <file>Icons/forbidden.png</file>
+    </qresource>
+</RCC>
