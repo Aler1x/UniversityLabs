@@ -1,0 +1,22 @@
+<RCC>
+    <qresource prefix="/icons">
+        <file>Icons/baseline_add_black_48dp.png</file>
+        <file>Icons/baseline_article_black_48dp.png</file>
+        <file>Icons/baseline_auto_stories_black_48dp.png</file>
+        <file>Icons/baseline_book_black_48dp.png</file>
+        <file>Icons/baseline_check_circle_outline_black_48dp.png</file>
+        <file>Icons/baseline_delete_black_48dp.png</file>
+        <file>Icons/baseline_filter_list_black_48dp.png</file>
+        <file>Icons/baseline_help_black_48dp.png</file>
+        <file>Icons/baseline_highlight_off_black_48dp.png</file>
+        <file>Icons/baseline_home_black_48dp.png</file>
+        <file>Icons/baseline_info_black_48dp.png</file>
+        <file>Icons/baseline_note_add_black_48dp.png</file>
+        <file>Icons/baseline_redo_black_48dp.png</file>
+        <file>Icons/baseline_remove_black_48dp.png</file>
+        <file>Icons/baseline_save_black_48dp.png</file>
+        <file>Icons/baseline_sort_black_48dp.png</file>
+        <file>Icons/baseline_undo_black_48dp.png</file>
+        <file>Icons/baseline_folder_black_48dp.png</file>
+    </qresource>
+</RCC>
