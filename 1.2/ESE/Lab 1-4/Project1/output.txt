@@ -1,0 +1,8 @@
+Christopher Paolini	Inheritance	2011	860	270.00
+J. K. Rowling	Harry Potter and the Order of the Phoenix	2003	766	195.00
+J. K. Rowling	Harry Potter and the Half-Blood Prince	2005	607	205.00
+J. K. Rowling	Harry Potter and the Goblet of Fire	2000	636	190.00
+J. K. Rowling	Harry Potter and the Deathly Hallows	2007	607	240.00
+Christopher Paolini	Eragon	2002	544	200.00
+Christopher Paolini	Eldest	2005	694	220.00
+Christopher Paolini	Brisingr	2008	831	250.00

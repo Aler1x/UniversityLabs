@@ -1,0 +1,6 @@
+J. K. Rowling	Harry Potter and the Philosopher's Stone	1997	223	150
+J. K. Rowling	Harry Potter and the Chamber of Secrets	1998	251	160
+J. K. Rowling	Harry Potter and the Prisoner of Azkaban	1999	317	175
+J. K. Rowling	Harry Potter and the Goblet of Fire	2000	636	190
+J. K. Rowling	Harry Potter and the Order of the Phoenix	2003	766	195
+J. K. Rowling	Harry Potter and the Deathly Hallows	2007	607	240
