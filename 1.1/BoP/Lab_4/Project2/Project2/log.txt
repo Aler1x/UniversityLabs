@@ -1,0 +1,14 @@
+[15.11.2021 15:00:19] Start program.
+[15.11.2021 15:00:19] Parametres file "input2.bin" opened. x = 1.000000, y = 4.000000
+[15.11.2021 15:00:19] Expression calculated. Result = 0.587401.
+[15.11.2021 15:00:28] Output file "output.txt" saved
+[15.11.2021 15:00:28] Program ended
+
+[15.11.2021 15:00:40] Start program.
+[15.11.2021 15:00:40] Parametres file "input.bin" opened. x = 3.000000, y = 6.000000
+[15.11.2021 15:00:40] Expression calculated. Result = 7.740079.
+[15.11.2021 15:00:50] Output file "output.bin" saved
+[15.11.2021 15:00:50] Program ended
+[15.11.2021 15:03:26] Start program.
+[15.11.2021 15:03:27] Parametres file "input.bin" opened. x = 43.000000, y = 7.000000
+[15.11.2021 15:03:27] Expression calculated. Result = 1.298626.
