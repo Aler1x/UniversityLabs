@@ -30,16 +30,6 @@ int main(void) {
 		min1 = z4;
 	}
 
-	double verh1, verh, nuz1, nuz2, nuz, stx, sty, stz, u;
-	verh1 = x * max2;
-	verh = max1 + verh1;
-	stx = x * x;
-	sty = y * y * y;
-	stz = z * z * z * z;
-	nuz1 = stx * sty;
-	nuz2 = stz - min1;
-	nuz = nuz1 + nuz2;
-	u = verh / nuz;
-	printf("%lf", u);
+	printf("%lf", (max1 + (x * max2)) / (((x * x) * (y * y * y)) + ((z * z * z * z) - min1)));
 	return 0;
 }
